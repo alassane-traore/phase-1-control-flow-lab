@@ -21,9 +21,7 @@ describe('index.js', function () {
     it('should return "No go." if the destination city is not NYC', function () {
       expect(ternaryCheckCity('Pittsburgh')).to.equal('No go.');
     });
-  });
-
-  describe('switchOnCharmFromTip()', function () {
+  });ternaryCheckCity
     it('should return "Thank you so much." if the tip is generous', function () {
       expect(switchOnCharmFromTip('generous')).to.equal('Thank you so much.');
     });
